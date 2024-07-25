@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "864300949291",
+    "project_id": "notificationhappyping",
+    "storage_bucket": "notificationhappyping.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864300949291:android:30eb056cf1c10acb26ef6e",
+        "android_client_info": {
+          "package_name": "com.example.happy_ping"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJNqrG9X6KjZMc4OmWv_sxnrcYNAGMzm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
