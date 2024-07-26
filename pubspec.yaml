@@ -46,6 +46,8 @@ dependencies:
   http:
   googleapis:
   googleapis_auth:
+  flutter_timezone: ^2.1.0
+  rxdart: ^0.28.0
 
 dev_dependencies:
   flutter_test:

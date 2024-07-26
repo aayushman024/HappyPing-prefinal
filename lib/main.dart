@@ -5,21 +5,20 @@ import 'package:flutter/material.dart';
 import 'package:happy_ping/Pages/home.dart';
 import 'package:happy_ping/Pages/info.dart';
 import 'package:happy_ping/firebase_options.dart';
+import 'package:happy_ping/local_notifications.dart';
 import 'package:happy_ping/onboarding/name.dart';
 import 'package:happy_ping/onboarding/onboarding1.dart';
 import 'package:happy_ping/onboarding/onboarding2.dart';
 import 'package:happy_ping/onboarding/onboarding3.dart';
+import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
 import 'api/firebase_api.dart';
 
 void main() async{
-  // WidgetsFlutterBinding.ensureInitialized();
-  // await Firebase.initializeApp(
-  //   options: DefaultFirebaseOptions.currentPlatform,
-  // );
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  await FirebaseApi().initNotifications();
+  await LocalNotifications.init();
+  // await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  // await FirebaseApi().initNotifications();
   runApp(const HappyPing());
 }
 

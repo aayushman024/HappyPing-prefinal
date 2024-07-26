@@ -12,12 +12,17 @@ void main(){
 class Name extends StatefulWidget {
   const Name({super.key});
 
+  String get_name(){
+    return _NameState.user_name;
+  }
+
   @override
   State<Name> createState() => _NameState();
 }
 
 class _NameState extends State<Name> {
   TextEditingController nameController = TextEditingController();
+  static String user_name = "";
 
   @override
   Widget build(BuildContext context) {
@@ -58,6 +63,7 @@ class _NameState extends State<Name> {
               child: ElevatedButton(
                 onPressed: (){
                   setState(() {
+                    user_name = nameController.text;
                     Navigator.push(context, CupertinoPageRoute(builder: (_) => InfoCollection()));
                   });
                 },
