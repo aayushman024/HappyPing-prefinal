@@ -48,10 +48,14 @@ dependencies:
   googleapis_auth:
   flutter_timezone: ^2.1.0
   rxdart: ^0.28.0
+  circular_countdown_timer: ^0.2.3
+  custom_radio_grouped_button: ^2.2.1
+  flutter_launcher_icons: ^0.13.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

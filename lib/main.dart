@@ -12,7 +12,6 @@ import 'package:happy_ping/onboarding/onboarding2.dart';
 import 'package:happy_ping/onboarding/onboarding3.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
-import 'api/firebase_api.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();

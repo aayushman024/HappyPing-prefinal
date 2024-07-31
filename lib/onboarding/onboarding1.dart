@@ -19,10 +19,9 @@ class _Onboarding1State extends State<Onboarding1> {
   @override
 
   Widget build(BuildContext context) {
-    double width = MediaQuery.of(context).size.width;
-    double height = MediaQuery.of(context).size.height;
-    double yourWidth = width * 0.95;
-    double yourHeight = height*0.95;
+    double screenWidth = MediaQuery.of(context).size.width;
+    double screenHeight = MediaQuery.of(context).size.height;
+
     return Scaffold(
       backgroundColor: Color(0xFFE0FFC0),
       body: Center(
@@ -32,11 +31,11 @@ class _Onboarding1State extends State<Onboarding1> {
           children: [
             SizedBox(
               //width: yourWidth,
-              height: 50,
+              height: screenHeight*0.15,
 
             ),
             Padding(
-              padding: const EdgeInsets.fromLTRB(0, 0, 0, 30),
+              padding: const EdgeInsets.fromLTRB(0, 0, 0, 20),
               child: Image.asset('assets/ob1.png'),
             ),
             Padding(
@@ -61,10 +60,10 @@ class _Onboarding1State extends State<Onboarding1> {
               ),
             ),
             SizedBox(
-              height: 85,
+              height: screenHeight*0.16,
             ),
             Padding(
-              padding: const EdgeInsets.fromLTRB(0, 40, 0, 20),
+              padding: const EdgeInsets.fromLTRB(0, 10, 0, 20),
               child: ElevatedButton(
                 onPressed: (){
                   setState(() {
