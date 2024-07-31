@@ -50,7 +50,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDJNqrG9X6KjZMc4OmWv_sxnrcYNAGMzm0',
+    apiKey: '',
     appId: '1:864300949291:android:30eb056cf1c10acb26ef6e',
     messagingSenderId: '864300949291',
     projectId: 'notificationhappyping',
@@ -58,7 +58,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCdtOi_upAoY2n2Fer_-38V7U3fqraOrR8',
+    apiKey: '',
     appId: '1:864300949291:ios:4c271b21abd1b6e626ef6e',
     messagingSenderId: '864300949291',
     projectId: 'notificationhappyping',
